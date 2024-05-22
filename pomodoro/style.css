@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+  /* font-family: "Merriweather"; */
+  /* background-color: CD5D67; */
+}
+.component {
+  height: 100vh;
+  background-color: #cd5d67;
+}
+.information {
+  background-color: #cd5d67;
+}
+
+/* html {
+  width: 100vw;
+} */
+
+.header {
+  font-family: "Nunito";
+  font-size: 6vh;
+  background-color: #91171f;
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+.hide {
+  display: none;
+}
+
+.clock {
+  /* width: min-content; */
+  /* height: 50vh; */
+  display: flex;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  /* margin: auto; */
+  /* margin-top: 5vh; */
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* font-family: "Merriweather"; */
+  font-size: 7rem;
+}
+button {
+  border: none;
+}
+
+.buttons {
+  display: inline-flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.stopwatch {
+  /* width: 50%; */
+  text-align: center;
+}
+
+.butto button {
+  width: 30%;
+  /* display: flex; */
+}
+
+/* .timer-visibility {
+  margin-right: 1em;
+} */
+.clock-chooser {
+  width: 100vw;
+  display: flex;
+}
+
+.work {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.clock-chooser button {
+  width: 50%;
+  height: 5em;
+  color: white;
+}
+
+.timer-visibility {
+  width: 50vw;
+}
+
+.function {
+  padding: 1em;
+  background-color: #410b13;
+  color: white;
+}
+
+.tomato {
+  height: 6vh;
+}
+
+.information {
+  width: 100vw;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: black;
+  text-align: left;
+}
